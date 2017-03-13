@@ -14,5 +14,4 @@ Invoke-psake -buildFile .\Build\default.ps1 `
 Write-Host "Build exit code:" $LastExitCode
 
 # Propogating the exit code so that builds actually fail when there is a problem.
-
 exit $LastExitCode
